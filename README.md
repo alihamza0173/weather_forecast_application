@@ -13,14 +13,16 @@
 To use this project, follow these steps:
 
 1. Clone this repository.
-2. Run `flutter pub get` in your terminal to fetch the dependencies.
-3. Run `flutter run` to launch the application.
+2. In root directry create `.env` file and add your `API_KEY`
+3. Run `flutter pub get` in your terminal to fetch the dependencies.
+4. Run `flutter run` to launch the application.
 
 ### Packages Used
 
-This project utilizes the following packages:
+This project utilizes theollowing packages:
 
 - `dio: ^5.4.0`
+- `flutter_dotenv: ^5.1.0`
 - `flutter_riverpod: ^2.4.9`
 - `go_router: ^13.0.1`
 
